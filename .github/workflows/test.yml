@@ -17,7 +17,7 @@ jobs:
 
     - name: Run hidden tests
       run: |
-        python -c "
+        python -c "import unittest; from solution import longest_substring_k_unique; unittest.main()"
 import unittest
 from solution import longest_substring_k_unique
 
